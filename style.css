@@ -1,11 +1,11 @@
 li{
-    color: rgb(22, 22, 22) ;
+    color: #626262;
     display: inline-block;
-    margin-left: 130px;
+    margin-left: 125px;
     
 }
 .Life{
-    margin-left: 25%;
+    margin-left: 23%;
  
 }
 li:hover{
@@ -14,39 +14,48 @@ li:hover{
 span{
     color: #b4ad9e;
     display: block;
-    margin-top: 5%;
+    margin-top: 3%;
    font-family: Arial;
 }
 button{
-    border: 1px solid black;
-    padding-left:30px;
-    padding-right:30px;
-    padding-bottom: 15px;
-    padding-top: 15px ;
-    margin-left: 43%;
-    background-color: white;
-    font-size: 18px;
+    border: 1px solid #626262;
+    padding:15px 40px 15px 40px; 
+    margin: 0% 43% 0% 43%;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    color: #626262;
 }
 .second{
-  width: 30%;
-  display:inline-block ;
-  margin: 40px;
-  margin-left: 15%;
+    margin: 30px 60px 30px 60px;
+    width: 435px;
+    height: 650px;
+    display: inline-block;
+    margin-left: 35px;
+    margin-right: 50px;
 }
 .third{
-    width: 30%;
+    margin: 30px 60px 30px 60px;
+    width: 435px;
+    height: 650px;
     display: inline-block;
-    margin: 40px;
-    margin-right: 4px;
-    margin-top: 20px;
+    margin-left: 50px;
+    margin-right:35px;
+}
+p{
+    font-size:15px;
+    color: #626262;
 }
 h2{
     font-family: 'Frank Ruhl Libre';
-    font-weight: 100;
+    font-size: 30;
+    color: #626262;
 }
-div{
-    margin-top: 20%;
+div img{
+    width: 435px;
+    height: 321px;
 }
-.photo{
- 
+.kolya{
+    margin: 10px 30px 10px 130px;
 }
+
+
