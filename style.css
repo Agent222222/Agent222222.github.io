@@ -1,61 +1,289 @@
+h3{
+    font-size: 21px;
+    color: #95e1d3;
+    font-family: 'Montserrat';
+    margin-left: 300px;
+    margin-right: 600px;
+}
+
+ul{
+    margin-top: 25px;
+}
+
+.big-one{
+  display: flex;
+  justify-content: start;
+}
+
+.List :hover{
+color: #f38181;
+text-decoration: underline;
+}
+
 li{
-    color: #626262;
+    list-style-type: none;
     display: inline-block;
-    margin-left: 125px;
-    
+    margin-right: 62px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
 }
-.Life{
-    margin-left: 23%;
- 
+
+a{
+   color: #95e1d3;
+   font-family: 'Montserrat';
+   text-decoration: none;
 }
-li:hover{
-   color:#03a9f4 ;
+
+.first{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    margin-top:60px;
 }
-span{
-    color: #b4ad9e;
-    display: block;
-    margin-top: 3%;
-   font-family: Arial;
-}
-button{
-    border: 1px solid #626262;
-    padding:15px 40px 15px 40px; 
-    margin: 0% 43% 0% 43%;
-    background-color: rgb(255, 255, 255);
-    font-size: 20px;
-    color: #626262;
-}
-.second{
-    margin: 30px 60px 30px 60px;
-    width: 435px;
-    height: 650px;
-    display: inline-block;
-    margin-left: 35px;
-    margin-right: 50px;
-}
-.third{
-    margin: 30px 60px 30px 60px;
-    width: 435px;
-    height: 650px;
-    display: inline-block;
-    margin-left: 50px;
-    margin-right:35px;
-}
+
 p{
-    font-size:15px;
-    color: #626262;
-}
-h2{
-    font-family: 'Frank Ruhl Libre';
-    font-size: 30;
-    color: #626262;
-}
-div img{
-    width: 435px;
-    height: 321px;
-}
-.kolya{
-    margin: 10px 30px 10px 130px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
 }
 
+.first-2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 
+.task{
+   display: inline-block;
+  width: 355px;
+  margin-right: 71px;
+  top: 70px;
+  margin-top: 60px;
+}
+
+.tosk{
+display: inline-block;
+width: 268px;
+}
+.one{
+    margin-left: 370px;
+}
+.Title{ 
+    display: block;
+}
+
+.text{
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+h6{
+    background-color:#f38181 ;
+    color: #f38181;
+    top: 3px;
+    font-size: 3px;
+    width: 60px;
+    margin-left: 48%;
+}
+.lorem{
+    color: #999999;
+    display: block;
+    height:60px;
+}
+
+.photo{
+    display: inline-block;
+    margin: 10px 20px 60px 0px;
+}
+
+b{
+    font-family:  'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.big-four{
+    margin: 30px 0px 80px 0px;
+}
+
+.holder{
+    position:relative;   
+    width:380px;
+    height:470px;
+    background-image: url(./Layer\ 16.png);
+}
+.block{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background-image: linear-gradient(to bottom, rgb(240, 101, 101, 0.7), rgb(240, 112, 103, 0.7), rgb(239, 123, 104, 0.7), rgb(239, 134, 106, 0.7), rgb(239, 145, 107, 0.7), rgb(239, 156, 109, 0.7), rgb(238, 168, 110, 0.7), rgb(238, 179, 112, 0.7), rgb(238, 190, 113, 0.7), rgb(238, 201, 115, 0.7), rgb(237, 212, 116, 0.7), rgb(237, 223, 118, 0.7));
+    padding:5px;
+    display:none;
+}
+.holder:hover .block{
+    display:block;
+}
+
+.holder1{
+    position:relative;   
+    width:380px;
+    height:470px;
+    background-image: url(./Layer\ 18.png);
+}
+.block1{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background-image: linear-gradient(to bottom, rgb(240, 101, 101, 0.7), rgb(240, 112, 103, 0.7), rgb(239, 123, 104, 0.7), rgb(239, 134, 106, 0.7), rgb(239, 145, 107, 0.7), rgb(239, 156, 109, 0.7), rgb(238, 168, 110, 0.7), rgb(238, 179, 112, 0.7), rgb(238, 190, 113, 0.7), rgb(238, 201, 115, 0.7), rgb(237, 212, 116, 0.7), rgb(237, 223, 118, 0.7));
+    padding:5px;
+    display:none;
+}
+.holder1:hover .block1{
+    display:block;
+}
+
+.holder2{
+    position:relative;   
+    width:380px;
+    height:470px;
+    background-image: url(./Layer\ 19.png);
+}
+.block2{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background-image: linear-gradient(to bottom, rgb(240, 101, 101, 0.7), rgb(240, 112, 103, 0.7), rgb(239, 123, 104, 0.7), rgb(239, 134, 106, 0.7), rgb(239, 145, 107, 0.7), rgb(239, 156, 109, 0.7), rgb(238, 168, 110, 0.7), rgb(238, 179, 112, 0.7), rgb(238, 190, 113, 0.7), rgb(238, 201, 115, 0.7), rgb(237, 212, 116, 0.7), rgb(237, 223, 118, 0.7));
+    padding:5px;
+    display:none;
+}
+.holder2:hover .block2{
+    display:block;
+}
+.lor{
+    font-size: 15px;
+    font-style: italic;
+    color: #acacac;
+}
+
+h4{
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    color: #4d4d4d;
+}
+.poto{
+    height: 550px;
+    width: 380px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.poto1{
+    height: 550px;
+    width: 380px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 340px;
+}
+.people{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #333333;
+}
+
+.prosto{
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    color: #b3b3b3;
+}
+
+.soc{
+    display: flex;
+    justify-content: center;
+}
+ 
+.img-1{
+    margin-top:200px;
+    height: 55px;
+    width: 55px;
+    margin-right: 1px;
+    background-color: #fce38a ;
+    display: flex;
+    justify-content: center;
+}
+
+.img-1:hover{
+   background-color: #95e1d3;
+}
+.img{
+    margin-top: 15px;
+}
+
+h5{
+    color: #e5e5e5;
+    background-color: #e5e5e5;
+    height: 2px;
+    font-size: 2px;
+    width:1210px;
+   margin-left:340px;
+}
+
+.god{
+    color: #f38181;
+    font-weight: lighter;
+}
+footer{
+    margin: 10px 0px 40px 350px;
+    font-size: 14px;
+    font-family: Arial;
+    width: 300px;
+    display: inline-block;
+}
+
+.BTN{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.p{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 350px;
+    margin: 10px 0px 40px 550px;
+    background-color: #95e1d3;
+    color: white;
+    font-size: 20px;
+    height: 35px;
+}
+input{
+    height: 31px;
+    width: 230px;
+    border: 1px solid #e5e5e5;
+    color: #e5e5e5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.span{
+    display: flex;
+    justify-content: center;
+}
